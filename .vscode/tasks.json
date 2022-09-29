@@ -1,0 +1,68 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "defold",
+			"action": "build",
+			"configuration": "debug",
+			"platform": "current",
+			"problemMatcher": [
+				"$defold-build"
+			],
+			"label": "defold: build",
+			"detail": "Build the project for running, debugging or testing",
+			"group": "build"
+		},
+		{
+			"type": "defold",
+			"action": "bundle",
+			"configuration": "debug",
+			"platform": "current",
+			"problemMatcher": [
+				"$defold-build"
+			],
+			"label": "defold: bundle",
+			"detail": "Bundle the project for a specific platform",
+			"group": "build"
+		},
+		{
+			"type": "defold",
+			"action": "clean",
+			"configuration": "debug",
+			"platform": "current",
+			"problemMatcher": [
+				"$defold-build"
+			],
+			"label": "defold: clean",
+			"detail": "Clean the project output",
+			"group": "build"
+		},
+		{
+			"type": "defold",
+			"action": "resolve",
+			"configuration": "debug",
+			"platform": "current",
+			"problemMatcher": [
+				"$defold-build"
+			],
+			"label": "defold: resolve",
+			"detail": "Resolve the project dependencies",
+			"group": "build"
+		},
+		{
+			"type": "defold",
+			"action": "run",
+			"configuration": "debug",
+			"platform": "current",
+			"problemMatcher": [
+				"$defold-run"
+			],
+			"label": "defold: run",
+			"detail": "Run the project",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

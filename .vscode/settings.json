@@ -1,0 +1,13 @@
+{
+    "Lua.diagnostics.globals": [
+        "hash",
+        "on_reload",
+        "init",
+        "final",
+        "update",
+        "fixed_update",
+        "on_message",
+        "on_input",
+        "msg"
+    ]
+}
