@@ -8,6 +8,8 @@
         "fixed_update",
         "on_message",
         "on_input",
-        "msg"
+        "msg",
+        "go",
+        "vmath"
     ]
 }

@@ -1,5 +1,5 @@
 animations {
-  id: "idle"
+  id: "nave"
   images {
     image: "/main/nave/imagens/nave.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
