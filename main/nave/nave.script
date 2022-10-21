@@ -2,8 +2,8 @@ function init(self)
 	msg.post('.', 'acquire_input_focus') --mensageiro para fazer funcionar os inputs
 	self.direction = vmath.vector3() --capturando a direção
 	self.speed = 5 --speed da nave
-	self.width = go.get('#nave', "size.x") / 2
-	self.height = go.get('#nave', "size.y") / 2
+	self.width = go.get('#nave', "size.x")
+	self.height = go.get('#nave', "size.y")
 	self.tela_top = 0 + self.height --limmite de cima da tela
 	self.tela_botton = 640 - self.height--limite de baixo da tela
 	self.tela_left = 0 + self.width --limite esquerda da tela
@@ -64,7 +64,7 @@ function on_input(self, action_id, action) --configurando as teclas pressionadas
 	end
 	if action_id ==  hash('esquerda') then
 		self.direction.x = -1
-		print('Esquerda')
+		print('Esquerda1')
 	elseif action_id == hash('direita') then
 		self.direction.x = 1
 		print('Direita')
